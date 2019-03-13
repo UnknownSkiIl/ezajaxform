@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #006e44;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title h1 span {
+    color: #00ff0d;
+}
+
+.title p {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title {
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+button {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    transition: 0.5s;
+    width: 30%;
+    align-self: center;
+}
+
+button:hover {
+    background: #00ff0d;
+    border: 2px solid #00ff0d;
+    outline: none;
+}
+
+button:active {
+    background: #00ff0d;
+    border: 2px solid #fff;
+    outline: none;
+    transition: 0.3s;
+}
+
+.your-form-class {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    color: #fff;
+}
+
+input {
+    background: none;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    height: 30px;
+    color: #fff;
+}
+
+textarea {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
